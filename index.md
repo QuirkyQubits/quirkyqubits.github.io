@@ -15,7 +15,7 @@ I'm a software engineer transitioning into technical writing. I specialize in ex
 ## 💼 About Me
 
 - 3 years of SWE experience
-- Experienced in Python, AWS, CDK, and game development
+- Experienced in: Robotic systems, C#/Unity, C/C++ and embedded systems, app development, full-stack web development, virtual ECU simulation and testing, scalablity, prototyping
 - Passionate about bridging engineering and communication
 
 📄 [Resume (PDF)](https://github.com/QuirkyQubits/portfolio/blob/main/resume.pdf)  
