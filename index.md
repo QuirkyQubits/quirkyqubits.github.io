@@ -15,9 +15,9 @@ I'm a software engineer transitioning into technical writing. I specialize in ex
 ## 💼 About Me
 
 - 3 years of SWE experience
-- Strong in Python, AWS, CDK, and telemetry systems
+- Experienced in Python, AWS, CDK, and game development
 - Passionate about bridging engineering and communication
 
 📄 [Resume (PDF)](https://github.com/QuirkyQubits/portfolio/blob/main/resume.pdf)  
-💼 [LinkedIn](https://linkedin.com/in/quirkyqubits)  
-✉️ Email: you@example.com
+💼 [LinkedIn](https://www.linkedin.com/in/jona-huang/)
+✉️ Email: quirkyqubits.dev@gmail.com
