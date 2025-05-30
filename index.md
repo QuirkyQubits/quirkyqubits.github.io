@@ -19,5 +19,5 @@ I'm a software engineer transitioning into technical writing. I specialize in ex
 - Passionate about bridging engineering and communication
 
 📄 [Resume (PDF)](https://github.com/QuirkyQubits/portfolio/blob/main/resume.pdf)  
-💼 [LinkedIn](https://www.linkedin.com/in/jona-huang/)
+💼 [LinkedIn](https://www.linkedin.com/in/jona-huang/)  
 ✉️ Email: quirkyqubits.dev@gmail.com
