@@ -6,6 +6,7 @@ I'm a software engineer transitioning into technical writing. I specialize in ex
 
 ## ✍️ Writing Samples
 
+- [🧾 Fetch Receipt Processor API Documentation](fetch-receipt-api.html)
 - 📘 [Monitoring Pipeline Setup Guide (GitBook)](https://yourgitbook.gitbook.io/monitoring-pipeline)
 - 🧠 [SmartPac Architecture Doc (GitHub)](https://github.com/QuirkyQubits/smartpac-architecture)
 - 📦 [CDK Setup README (GitHub)](https://github.com/QuirkyQubits/cdk-setup)
