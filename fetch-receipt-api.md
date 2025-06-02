@@ -1,36 +1,35 @@
-# 🧾 Fetch Receipt Processor API Documentation
+# 🧾 Fetch Receipt Processor Project
 
 **Author**: Jonathan Huang  
 **Repository**: [GitHub](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge)  
-**Challenge**: [Fetch Rewards Receipt API](https://github.com/fetch-rewards/receipt-processor-challenge)  
-**Tech Stack**: Django, Docker
+**Challenge**: [Fetch Rewards Receipt App](https://github.com/fetch-rewards/receipt-processor-challenge)
 
 ---
 
 ## 📌 Overview
 
-This project implements a Django-based REST API that calculates reward points from submitted retail receipt data. It was developed as part of the Fetch Rewards receipt processor coding challenge.
+This project is a digital points system that awards reward points based on shopping receipts. You enter details from a purchase - like the store name, total amount, and items bought - and the app calculates how many points that receipt earns.
 
-Users submit a JSON receipt to the Process API and receive a unique ID. This ID can then be used to query the Points API to determine how many points the receipt earned based on specific business rules.
+The project was built as part of a challenge from Fetch Rewards, a company known for rewarding users for everyday purchases. It’s designed to demonstrate how purchase information can be processed and scored automatically.
 
 ---
 
-## 🚀 How to Use
+## 🚀 How It Works
 
-The project is fully Dockerized for easy setup and execution. You can also run it locally using Python and Django.
+You give the app a digital version of your receipt, and it uses a set of scoring rules to figure out how many points it’s worth. Different purchases earn different points - for example, based on the amount spent or the time of day you shopped.
 
-For complete setup instructions, API usage, and example payloads, please refer to the GitHub repository:  
+Developers can run this system on their own computers or inside a container using Docker.
+
+For full technical instructions, check out the GitHub repository:  
 🔗 [Project README](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge/blob/main/README.md)
 
 ---
 
-## 📫 API Summary
+## 🧑‍💻 Developer Info
 
-- **POST `/receipts/process`** — Accepts receipt data and returns a UUID.
-- **GET `/receipts/{id}/points`** — Returns the number of points earned by the receipt associated with the given ID.
-
-For full API specification, see the original challenge:  
-📄 [API Spec](https://github.com/fetch-rewards/receipt-processor-challenge/blob/main/api.yml)
+- Submit a receipt and receive a receipt ID
+- Use the ID to look up the reward points
+- See full request/response details in the [API Spec](https://github.com/fetch-rewards/receipt-processor-challenge/blob/main/api.yml)
 
 ---
 
