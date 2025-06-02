@@ -20,6 +20,6 @@ Hi! My naime is Jonathan Huang. I'm a software engineer transitioning into techn
 - Experienced in: Robotic systems, C#/Unity, C/C++ and embedded systems, app development, full-stack web development, virtual ECU simulation and testing, scalablity, prototyping
 - Passionate about bridging engineering and communication
 
-📄 [Resume (PDF)](https://github.com/QuirkyQubits/portfolio/blob/main/Jonathan_Huang_Resume.pdf)  
+📄 [Resume (PDF)](https://quirkyqubits.github.io/portfolio/blob/main/Jonathan_Huang_Resume.pdf)  
 💼 [LinkedIn](https://www.linkedin.com/in/jona-huang/)  
 ✉️ Email: quirkyqubits.dev@gmail.com
