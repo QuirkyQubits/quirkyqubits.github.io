@@ -50,7 +50,7 @@ A C# console application that:
 - Simulates unit movement and combat using **a shortest-path algorithm that accounts for terrain cost and movement range**  
 - Resolves victory conditions based on terrain and unit data  
 
-The backend focuses on core **game logic and mechanics**, and is designed to serve as a foundation for integration with Unity, Unreal, or any game framework.
+The backend focuses on core **game logic and mechanics**, and is designed to serve as a foundation for integration with Unity, Unreal, or any game framework. For more details, please see the readme at https://github.com/QuirkyQubits/strategy-game-djikstra-algorithm.
 
 ---
 
