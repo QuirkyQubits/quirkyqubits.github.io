@@ -30,6 +30,7 @@ For full technical instructions, check out the GitHub repository:
 - Submit a receipt and receive a receipt ID
 - Use the ID to look up the reward points
 - See full request/response details in the [API Spec](https://github.com/fetch-rewards/receipt-processor-challenge/blob/main/api.yml)
+- Full test coverage and edge-case validation are available in the project repo
 
 ---
 
