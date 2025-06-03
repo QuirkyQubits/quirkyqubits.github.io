@@ -2,7 +2,6 @@
 
 **Author**: Jonathan Huang  
 **Repository**: [GitHub](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge)  
-**Challenge**: [Fetch Rewards Receipt App](https://github.com/fetch-rewards/receipt-processor-challenge)
 
 ---
 
