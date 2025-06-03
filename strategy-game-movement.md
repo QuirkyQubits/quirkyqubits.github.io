@@ -8,9 +8,20 @@ This system combines:
 
 ---
 
-## 🧩 About the Projects
+## 🧩 Overview
 
-This system includes two modular tools, designed to work independently or together:
+Designing levels for grid-based strategy games is often slow and fragmented - game designers may need to manually define tile maps, terrain types, and unit logic using engine-specific tools or handwritten data formats. This makes it harder to iterate on what "feels fun" during early development.
+
+To bridge this gap, I built a two-part system:
+
+- A **visual Level Creator**, allowing designers to quickly sketch out maps, assign terrain, and export them in a structured JSON format.
+- A **minimal C# reference implementation**, which consumes that JSON to simulate movement and combat, demonstrating how the exported data can be used by a game engine or AI-powered translation workflow.
+
+The C# implementation includes a clean, modular Dijkstra pathfinding algorithm that can be easily:
+- Copied directly into engines like Unity
+- Translated into other languages (e.g. JavaScript, C++, Rust) using LLMs or developer tooling
+
+Together, these tools help speed up the early design loop: from **initial level design → prototype → test**. By decoupling level creation from engine constraints, this system gives teams a flexible, engine-agnostic foundation to build on - whether they're using Unity, Unreal, or something custom.
 
 ---
 
