@@ -1,63 +1,51 @@
 # 🎮 Strategy Game Movement System
 
-A modular, visual system for simulating unit movement in grid-based strategy games using Dijkstra’s algorithm.
+A two-part project designed to support rapid prototyping and simulation for grid-based strategy games.
 
-This project is split into two parts:
-- 🧠 A core algorithm module that calculates reachable tiles using Dijkstra’s algorithm
-- 🕹️ An interactive browser-based tool that lets you experiment with terrain, movement range, and unit positioning
-
----
-
-## 🕹️ Live Demo
-
-Try the strategy game tool directly in your browser:
-
-🔗 [**Live Demo**](https://quirkyqubits.github.io/strategy-game-tool/)
-
-Explore how terrain affects movement range and see Dijkstra’s algorithm in action.
-
-![demo](https://github.com/QuirkyQubits/strategy-game-djikstra-algorithm/blob/main/demo.png)
+This system combines:
+- 🛠️ A browser-based **Strategy Game Level Creator** for fast map design and iteration
+- 🧠 A C# console-based simulation engine for turn-based movement and combat logic
 
 ---
 
-## 🧠 Core Algorithm Module
+## 🧩 About the Projects
 
-The logic for determining movement range is powered by a custom implementation of Dijkstra’s algorithm:
-
-📂 [Dijkstra Algorithm Repository](https://github.com/QuirkyQubits/strategy-game-djikstra-algorithm)
-
-This module:
-- Models grid-based maps with variable terrain movement costs
-- Computes all reachable tiles given a unit’s starting position and movement points
-- Can be reused or extended for other turn-based game logic
+This system includes two modular tools, designed to work independently or together:
 
 ---
 
-## 💻 Source Code
+### 🛠️ Strategy Game Level Creator (Frontend)
 
-- 🧠 [Dijkstra Algorithm (backend logic)](https://github.com/QuirkyQubits/strategy-game-djikstra-algorithm)
-- 🕹️ [Frontend Tool (browser interface)](https://github.com/QuirkyQubits/strategy-game-tool)
+A browser-based visual editor that functions like **MS Paint for strategy game levels**. It lets you:
 
----
+- 🎨 Draw grid-based maps using your mouse, assigning different terrain types  
+- 💾 Export maps as JSON for use in game engines or backend simulations  
+- 📂 Re-import saved maps to continue editing or testing later  
+- ⚡ Rapidly prototype level layouts and iterate on terrain balance and map feel  
 
-## 🧾 Use Cases
+#### 🖼️ Example Usage
 
-This system is ideal for:
-- Prototyping tactical game mechanics (Fire Emblem, Advance Wars, etc.)
-- Teaching or learning pathfinding algorithms in a visual context
-- Demonstrating modular game architecture
+![Demo Preview](./demo.png)
 
----
-
-## 📚 Technical Breakdown
-
-You can read a full breakdown of how the system works, including diagrams and usage details, in the accompanying GitBook:
-
-📖 *Coming Soon* (optional link to GitBook here when it's ready)
+👉 **Try it here!** → [Strategy Game Level Creator](https://quirkyqubits.github.io/strategy-game-tool/)
 
 ---
 
-## 🧑‍💻 Author
+### 🧠 Turn-Based Simulation Engine (Backend)
 
-Jonathan Huang  
-[quirkyqubits.dev@gmail.com](mailto:quirkyqubits.dev@gmail.com)  
+A C# console application that:
+
+- Loads exported maps from the Level Creator  
+- Simulates unit movement and combat using **a shortest-path algorithm that accounts for terrain cost and movement range**  
+- Resolves victory conditions based on terrain and unit data  
+
+The backend focuses on core **game logic and mechanics**, and is designed to serve as a foundation for integration with Unity, Unreal, or any game framework.
+
+---
+
+## 📂 Source Code
+
+- 🛠️ [Strategy Game Level Creator (JavaScript)](https://github.com/QuirkyQubits/strategy-game-tool)  
+- 🧠 [Backend Simulation + Logic (C#)](https://github.com/QuirkyQubits/strategy-game-djikstra-algorithm)  
+
+Each repo includes documentation, code samples, and usage instructions.
