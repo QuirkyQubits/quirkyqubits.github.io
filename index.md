@@ -9,7 +9,8 @@ Hi! My naime is Jonathan Huang. I'm a software engineer transitioning into techn
 - [🧾 Fetch Receipt Processor API Documentation](https://quirkyqubits.github.io/fetch-receipt-api
 )
 - 📘 [Sentinel OEE End-To-End Data Flow (GitBook)](https://quirkyqubits.gitbook.io/sentinel-oee-data-flow/)
-
+- 🎮 [Strategy Game Movement System](https://quirkyqubits.github.io/strategy-game-movement)
+  
 ---
 
 ## 💼 About Me
