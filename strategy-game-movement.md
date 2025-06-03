@@ -36,7 +36,7 @@ A browser-based visual editor that functions like **MS Paint for strategy game l
 
 #### 🖼️ Example Usage
 
-![Demo Preview](./portfolio/demo.png)
+![Demo Preview](/portfolio/strategy-game-tool-demo.png)
 
 👉 **Try it here!** → [Strategy Game Level Creator](https://quirkyqubits.github.io/strategy-game-tool/)
 
