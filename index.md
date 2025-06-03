@@ -1,6 +1,6 @@
 # 👋 Welcome to QuirkyQubits
 
-Hi! My naime is Jonathan Huang. I'm a software engineer transitioning into technical writing. I specialize in explaining complex systems with clarity - especially in backend systems, AWS pipelines, and developer tooling.
+Hi! My name is Jonathan Huang. I'm a software engineer transitioning into technical writing. I specialize in explaining complex systems with clarity - especially in backend systems, AWS pipelines, and developer tooling.
 
 ---
 
