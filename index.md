@@ -8,9 +8,7 @@ Hi! My naime is Jonathan Huang. I'm a software engineer transitioning into techn
 
 - [🧾 Fetch Receipt Processor API Documentation](https://quirkyqubits.github.io/fetch-receipt-api
 )
-- 📘 [Monitoring Pipeline Setup Guide (GitBook)](https://yourgitbook.gitbook.io/monitoring-pipeline)
-- 🧠 [SmartPac Architecture Doc (GitHub)](https://github.com/QuirkyQubits/smartpac-architecture)
-- 📦 [CDK Setup README (GitHub)](https://github.com/QuirkyQubits/cdk-setup)
+- 📘 [Sentinel OEE Integration Guide Overview (GitBook)](https://quirkyqubits.gitbook.io/oee-integration-guide-overview/)
 
 ---
 
