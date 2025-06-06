@@ -6,11 +6,11 @@ Hi! My name is Jonathan Huang. I'm a software engineer transitioning into techni
 
 ## ✍️ Writing Samples
 
-- [🧾 Fetch Receipt Processor API Documentation](https://quirkyqubits.github.io/fetch-receipt-api
-)
+- 🐱 [PetBot 5000 User Guide (GitBook)](https://quirkyqubits.gitbook.io/petbot-5000-user-guide/)
 - 📘 [Sentinel OEE End-To-End Data Flow (GitBook)](https://quirkyqubits.gitbook.io/sentinel-oee-data-flow/)
 - 🎮 [Strategy Game Movement System](https://quirkyqubits.github.io/strategy-game-movement)
-- 🐱 [PetBot 5000 User Guide (GitBook)](https://quirkyqubits.gitbook.io/petbot-5000-user-guide/)
+- [🧾 Fetch Receipt Processor API Documentation](https://quirkyqubits.github.io/fetch-receipt-api
+)
   
 ---
 
