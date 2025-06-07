@@ -1,4 +1,4 @@
-# 📟 Fetch Receipt Processor Project
+# 🧾 Fetch Receipt Processor Project
 
 ## 📌 Overview
 
