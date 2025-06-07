@@ -39,6 +39,7 @@ A browser-based visual editor that functions like **MS Paint for strategy game l
 ![Demo Preview](/portfolio/strategy-game-tool-demo.png)
 
 👉 **Try it here!** → [Strategy Game Level Creator](https://quirkyqubits.github.io/strategy-game-tool/)
+- NOTE: This tool works best on desktop in Google Chrome or Firefox. ⚠️ Mobile browsers are not supported.
 
 ---
 
