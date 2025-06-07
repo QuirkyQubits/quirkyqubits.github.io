@@ -12,7 +12,7 @@ This page aims to provide an accessible summary of the project for a broad audie
 
 ## 🔍 Behind the Scenes
 
-Imagine you take a photo of your grocery receipt in a shopping rewards app. While you see reward points appear almost instantly, there's a backend engine processing the data behind the scenes. The receipt is stored, parsed, and scored using rules built into APIs. This project serves as an example implementation for that invisible part of the system.
+Imagine you take a photo of your grocery receipt in a shopping rewards app. While you see reward points appear almost instantly, there's a backend engine processing the data behind the scenes. This project serves as an example implementation for that invisible part of the system, which stores, parses, and scores receipts using rules built into APIs.
 
 ---
 
