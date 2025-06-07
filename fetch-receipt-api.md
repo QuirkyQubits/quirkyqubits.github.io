@@ -1,5 +1,13 @@
 # 🧾 Fetch Receipt Processor Project
 
+**Author**: Jonathan Huang
+
+**Repository**: [GitHub](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge)
+
+📄 **Note**: The [GitHub README](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge#readme) is written for developers and assumes familiarity with tools like Git and Docker.
+
+---
+
 ## 📌 Overview
 
 This project is the backend for a digital points system that awards users for their shopping receipts. By entering details like the store name, total amount, and purchased items, the app calculates how many points each receipt earns.
@@ -27,10 +35,8 @@ Different purchases earn different points – for example, based on the amount s
 
 For full technical instructions, check out the GitHub repository:🔗 [GitHub Repo](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge/tree/main)
 
-📄 **Note**: The [README](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge#readme) is written for developers and assumes familiarity with tools like Git and Docker.
-
 ---
 
 ## 📬 Contact
 
-For questions or contributions, contact: [quirkyqubits.dev@gmail.com](mailto:quirkyqubits.dev@gmail.com)
+For questions or contributions, contact: [quirkyqubits.dev@gmail.com](mailto\:quirkyqubits.dev@gmail.com)
