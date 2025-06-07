@@ -1,36 +1,33 @@
 # 📟 Fetch Receipt Processor Project
 
-**Author**: Jonathan Huang  
-**Repository**: [GitHub](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge)
-
----
-
 ## 📌 Overview
 
-This project is a digital points system that awards users for their shopping receipts. By entering details like the store name, total amount, and purchased items, the app calculates how many points each receipt earns.
+This project is the backend for a digital points system that awards users for their shopping receipts. By entering details like the store name, total amount, and purchased items, the app calculates how many points each receipt earns.
 
 Built as part of a challenge from Fetch Rewards, a company that rewards users for everyday purchases, the project demonstrates how purchase data can be programmatically processed and scored.
 
-This page aims to provide a **non-technical summary** of the project. The codebase itself is solely focused on the API layer - the behind-the-scenes system that processes receipt data and returns reward point calculations. For full implementation details and setup instructions, see the README in the GitHub repository, which is written specifically for developers.
+This page aims to provide an accessible summary of the project for a broad audience.
+
+---
+
+## 🧾 Behind the Scenes
+
+Imagine you take a photo of your grocery receipt in a shopping rewards app. While you see reward points appear almost instantly, there's a backend engine processing the data behind the scenes. The receipt is stored, parsed, and scored using rules built into an API, and the points can be calculated dynamically or through other mechanisms, depending on the implementation. This project serves as an example implementation for that invisible part of the system.
 
 ---
 
 ## 🚀 How It Works
 
-The user provides a digital version of a receipt, and the system uses a set of scoring rules to determine how many points it’s worth. Different purchases earn different points - for example, based on the amount spent or the time of day the purchase occurred.
+This project exposes two API endpoints that power the receipt processing system:
 
-For full technical instructions, check out the GitHub repository:  
-🔗 [GitHub Repo](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge/tree/main)
+- `POST /receipts/process`: Submits a digital receipt to the system. It stores the receipt content and returns a unique receipt ID for later use.
+- `GET /receipts/{id}/points`: Given a receipt ID, this returns the number of points that receipt earns based on the scoring rules.
 
----
+Different purchases earn different points – for example, based on the amount spent or the time of day the purchase occurred.
 
-## 🧑‍💻 Developer Info
+For full technical instructions, check out the GitHub repository:🔗 [GitHub Repo](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge/tree/main)
 
-- Submit a receipt and receive a receipt ID
-- Use the ID to look up the reward points
-- See full request/response details in the [API Spec](https://github.com/fetch-rewards/receipt-processor-challenge/blob/main/api.yml)
-- Full test coverage and edge-case validation are available in the project repo  
-  📄 **Note**: The [README](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge#readme) is written for developers and assumes familiarity with tools like Git and Docker.
+📄 **Note**: The [README](https://github.com/QuirkyQubits/fetch-receipt-processor-challenge#readme) is written for developers and assumes familiarity with tools like Git and Docker.
 
 ---
 
