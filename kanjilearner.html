@@ -45,20 +45,21 @@
     </ul>
   
     <h2>📸 Screenshots</h2>
-    <img src="portfolio/kanjilearner-pics/kl-dashboard.png" alt="KanjiLearner Dashboard" />
-    <div class="caption">Dashboard view showing available lessons, reviews, and recent mistakes.</div>
-  
+
     <img src="portfolio/kanjilearner-pics/kl-login.png" alt="KanjiLearner Login Page" />
     <div class="caption">Login screen for user authentication and session handling.</div>
-  
-    <img src="portfolio/kanjilearner-pics/kl-vocab.png" alt="KanjiLearner Vocabulary Entry" />
-    <div class="caption">Vocabulary entry details, including readings, meaning, and example usage.</div>
+    
+    <img src="portfolio/kanjilearner-pics/kl-dashboard.png" alt="KanjiLearner Dashboard" />
+    <div class="caption">Dashboard view showing available lessons, reviews, and recent mistakes.</div>
   
     <img src="portfolio/kanjilearner-pics/kl-radical.png" alt="KanjiLearner Radical Entry" />
     <div class="caption">Radical entry view showing components and related kanji dependencies.</div>
   
     <img src="portfolio/kanjilearner-pics/kl-kanji.png" alt="KanjiLearner Kanji Entry" />
     <div class="caption">Kanji entry page displaying readings, mnemonics, and associated vocabulary.</div>
+
+    <img src="portfolio/kanjilearner-pics/kl-vocab.png" alt="KanjiLearner Vocabulary Entry" />
+    <div class="caption">Vocabulary entry details, including readings, meaning, and example usage.</div>
   
     <img src="portfolio/kanjilearner-pics/kl-search.png" alt="KanjiLearner Dictionary Search" />
     <div class="caption">Dictionary search view for quickly finding radicals, kanji, or vocabulary.</div>
@@ -77,6 +78,10 @@
     
     <h2>⚙️ Development Highlights</h2>
     <ul>
+      <li>
+        <strong>Responsive UI Design:</strong> Styled the frontend with <code>Tailwind CSS</code>, using Flexbox and CSS Grid layouts
+        for clean, responsive pages. The dashboard adapts across screen sizes, presenting lessons, reviews, and mistakes in a balanced layout.
+      </li>
       <li>
         <strong>Pitch Accent Graph:</strong> Implemented an interactive SVG component that splits Japanese words into morae and plots
         their pitch pattern (low/high). This allows learners to visualize pronunciation patterns such as <code>LHH</code> or <code>LH(L)</code>,
@@ -97,17 +102,13 @@
         ensuring consistent behavior across study sessions.
       </li>
       <li>
-        <strong>Responsive UI Design:</strong> Styled the frontend with <code>Tailwind CSS</code>, using Flexbox and CSS Grid layouts
-        for clean, responsive pages. The dashboard adapts across screen sizes, presenting lessons, reviews, and mistakes in a balanced layout.
-      </li>
-      <li>
         <strong>Authentication & Security:</strong> Used <code>Axios</code> with Django’s CSRF protection and sessionId cookies for
         secure, cookie-based authentication. This ensures that user sessions remain persistent and protected without exposing tokens.
       </li>
     </ul>
     
     <p>
-      Overall, KanjiLearner combines thoughtful pedagogy with robust engineering: from data modeling and spaced repetition logic to
+      Overall, KanjiLearner combines proven Japanese learning methods with robust engineering: from data modeling and spaced repetition logic to
       React-driven interactivity and production deployment. It serves both as a personal study tool and as a demonstration of full-stack
       development.
     </p>
