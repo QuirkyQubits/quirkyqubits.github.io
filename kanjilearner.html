@@ -1,80 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KanjiLearner – Full-Stack Spaced Repetition App</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    img {
-      max-width: 100%;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      margin: 10px 0;
-    }
-    .caption {
-      font-size: 0.9em;
-      color: #555;
-      margin-bottom: 20px;
-    }
-  </style>
-</head>
-<body>
-  <h1>KanjiLearner – Full-Stack Spaced Repetition App</h1>
-  <p><strong>Date:</strong> July 2025 – Sept 2025</p>
-
-  <p>
-    KanjiLearner is a full-stack web application I developed to help learners study kanji using a spaced repetition system (SRS). 
-    It includes lessons, reviews, mistake tracking, and customizable mnemonics.
-  </p>
-
-  <h2>🚀 Tech Stack</h2>
-  <ul>
-    <li>React (TypeScript, Vite) + Tailwind CSS</li>
-    <li>Django + PostgreSQL</li>
-    <li>Deployed to Vercel (frontend) and Render (backend + DB)</li>
-  </ul>
-
-  <h2>📸 Screenshots</h2>
-  <img src="portfolio/kanjilearner-pics/kl-dashboard.png" alt="KanjiLearner Dashboard" />
-  <div class="caption">Dashboard view showing available lessons, reviews, and recent mistakes.</div>
-
-  <img src="portfolio/kanjilearner-pics/kl-login.png" alt="KanjiLearner Login Page" />
-  <div class="caption">Login screen for user authentication and session handling.</div>
-
-  <img src="portfolio/kanjilearner-pics/kl-vocab.png" alt="KanjiLearner Vocabulary Entry" />
-  <div class="caption">Vocabulary entry details, including readings, meaning, and example usage.</div>
-
-  <img src="portfolio/kanjilearner-pics/kl-radical.png" alt="KanjiLearner Radical Entry" />
-  <div class="caption">Radical entry view showing components and related kanji dependencies.</div>
-
-  <img src="portfolio/kanjilearner-pics/kl-kanji.png" alt="KanjiLearner Kanji Entry" />
-  <div class="caption">Kanji entry page displaying readings, mnemonics, and associated vocabulary.</div>
-
-  <img src="portfolio/kanjilearner-pics/kl-search.png" alt="KanjiLearner Dictionary Search" />
-  <div class="caption">Dictionary search view for quickly finding radicals, kanji, or vocabulary.</div>
-
-  <img src="portfolio/kanjilearner-pics/kl-runner-flipped-false.png" alt="KanjiLearner Review Runner (Unflipped)" />
-  <div class="caption">Review runner in progress before flipping the card (user inputs their answer).</div>
-
-  <img src="portfolio/kanjilearner-pics/kl-runner-flipped-true.png" alt="KanjiLearner Review Runner (Flipped)" />
-  <div class="caption">Review runner after flipping the card, showing the correct answer and feedback.</div>
-
-  <h2>📌 Outcome</h2>
-  <p>
-    Within three months I shipped a production-ready MVP that I continue to use for my own Japanese studies. 
-    The project demonstrates end-to-end ownership of data modeling, API design, frontend development, and production deployment.
-  </p>
-
-  <p><a href="index.html">⬅ Back to Portfolio Home</a></p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KanjiLearner – Full-Stack Spaced Repetition App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        line-height: 1.6;
+      }
+      h1, h2 {
+        color: #2c3e50;
+      }
+      img {
+        max-width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin: 10px 0;
+      }
+      .caption {
+        font-size: 0.9em;
+        color: #555;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>KanjiLearner – Full-Stack Spaced Repetition App</h1>
+    <p><strong>Date:</strong> July 2025 – Sept 2025</p>
+  
+    <p>
+      KanjiLearner is a full-stack web application I developed to help learners study kanji using a spaced repetition system (SRS). 
+      It includes lessons, reviews, mistake tracking, and customizable mnemonics.
+    </p>
+  
+    <h2>🚀 Tech Stack</h2>
+    <ul>
+      <li>React (TypeScript, Vite) + Tailwind CSS</li>
+      <li>Django + PostgreSQL</li>
+      <li>Deployed to Vercel (frontend) and Render (backend + DB)</li>
+    </ul>
+  
+    <h2>📸 Screenshots</h2>
+    <img src="portfolio/kanjilearner-pics/kl-dashboard.png" alt="KanjiLearner Dashboard" />
+    <div class="caption">Dashboard view showing available lessons, reviews, and recent mistakes.</div>
+  
+    <img src="portfolio/kanjilearner-pics/kl-login.png" alt="KanjiLearner Login Page" />
+    <div class="caption">Login screen for user authentication and session handling.</div>
+  
+    <img src="portfolio/kanjilearner-pics/kl-vocab.png" alt="KanjiLearner Vocabulary Entry" />
+    <div class="caption">Vocabulary entry details, including readings, meaning, and example usage.</div>
+  
+    <img src="portfolio/kanjilearner-pics/kl-radical.png" alt="KanjiLearner Radical Entry" />
+    <div class="caption">Radical entry view showing components and related kanji dependencies.</div>
+  
+    <img src="portfolio/kanjilearner-pics/kl-kanji.png" alt="KanjiLearner Kanji Entry" />
+    <div class="caption">Kanji entry page displaying readings, mnemonics, and associated vocabulary.</div>
+  
+    <img src="portfolio/kanjilearner-pics/kl-search.png" alt="KanjiLearner Dictionary Search" />
+    <div class="caption">Dictionary search view for quickly finding radicals, kanji, or vocabulary.</div>
+  
+    <img src="portfolio/kanjilearner-pics/kl-runner-flipped-false.png" alt="KanjiLearner Review Runner (Unflipped)" />
+    <div class="caption">Review runner in progress before flipping the card (user inputs their answer).</div>
+  
+    <img src="portfolio/kanjilearner-pics/kl-runner-flipped-true.png" alt="KanjiLearner Review Runner (Flipped)" />
+    <div class="caption">Review runner after flipping the card, showing the correct answer and feedback.</div>
+  
+    <h2>📌 Outcome</h2>
+    <p>
+      Within three months I shipped a production-ready MVP that I continue to use for my own Japanese studies. 
+      The project demonstrates end-to-end ownership of data modeling, API design, frontend development, and production deployment.
+    </p>
+    
+    <h2>⚙️ Development Highlights</h2>
+    <ul>
+      <li>
+        <strong>Pitch Accent Graph:</strong> Implemented an interactive SVG component that splits Japanese words into morae and plots
+        their pitch pattern (low/high). This allows learners to visualize pronunciation patterns such as <code>LHH</code> or <code>LH(L)</code>,
+        which are critical for sounding natural in spoken Japanese.
+      </li>
+      <li>
+        <strong>Efficient Pagination:</strong> Integrated <code>React Query</code> to handle server-side pagination of dictionary entries.
+        The client caches responses and seamlessly fetches the next page, ensuring smooth navigation even across thousands of kanji, radicals, and vocabulary items.
+      </li>
+      <li>
+        <strong>Highlighting System:</strong> Built a custom text highlighter that parses <code>&lt;radical&gt;</code>, <code>&lt;kanji&gt;</code>,
+        <code>&lt;vocab&gt;</code>, and <code>&lt;reading&gt;</code> tags from API responses. These tags are rendered with distinct styles, making it easy
+        for learners to quickly distinguish between character types and readings in mnemonics and explanations.
+      </li>
+      <li>
+        <strong>Review Runner State Machine:</strong> Designed the review flow as a React reducer with action/state dispatch, functioning as a
+        lightweight state machine. This controls card flipping, answer validation, success/failure logging, and SRS progression updates,
+        ensuring consistent behavior across study sessions.
+      </li>
+    </ul>
+    
+    <p>
+      Overall, KanjiLearner combines thoughtful pedagogy with robust engineering: from data modeling and spaced repetition logic to
+      React-driven interactivity and production deployment. It serves both as a personal study tool and as a demonstration of full-stack
+      development and technical writing skills.
+    </p>
+  
+    <p><a href="index.html">⬅ Back to Portfolio Home</a></p>
+  </body>
 </html>
