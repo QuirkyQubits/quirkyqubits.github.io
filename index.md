@@ -11,6 +11,7 @@ Hi! My name is Jonathan Huang. I'm a software engineer with a strong interest in
 - 🎮 [Strategy Game Movement System](https://quirkyqubits.github.io/strategy-game-movement)
 - 🧾 [Fetch Receipt Processor API Documentation](https://quirkyqubits.github.io/fetch-receipt-api)
 - 🔠 [KanjiLearner – Full-Stack SRS App](kanjilearner.html)
+- 🧰 [TierList Editor – Custom Tier List Builder](tierlist.html)
   
 ---
 
