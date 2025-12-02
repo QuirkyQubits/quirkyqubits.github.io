@@ -1,15 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>TierList Editor</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TierList Editor – Custom Drag-and-Drop Tier Maker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        line-height: 1.6;
+      }
+      h1, h2 {
+        color: #2c3e50;
+      }
+      img {
+        max-width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin: 10px 0;
+      }
+      .caption {
+        font-size: 0.9em;
+        color: #555;
+        margin-bottom: 20px;
+      }
+    </style>
   </head>
-  <body>
-    <h1>TierList Editor</h1>
-    <p>This page is reserved for my TierList Editor app.</p>
 
-    <p>Repository:  
-      <a href="https://github.com/QuirkyQubits/tierlist-editor">TierList Editor Repo</a>
+  <body>
+    <h1>TierList Editor – Full-Stack Custom Tier List Builder</h1>
+    <p><strong>Date:</strong> Dec 2024 – Jan 2025</p>
+
+    <p>
+      TierList Editor is a full-stack application that lets users create, save, and edit
+      fully customizable tier lists. It supports drag-and-drop card sorting, image uploads,
+      midpoint-based ghost previews, inline editing, and full CRUD on lists, tiers, and items.
     </p>
+
+    <h2>🚀 Tech Stack</h2>
+    <ul>
+      <li>React (TypeScript, Vite) + Tailwind CSS</li>
+      <li>Node.js + Express + Prisma ORM</li>
+      <li>PostgreSQL Database</li>
+      <li>JWT-based authentication with session persistence</li>
+    </ul>
+
+    <h2>📸 Screenshots</h2>
+
+    <!-- 1. Add Card (Before Input) -->
+    <img src="portfolio/tierlist/tl-add-before.png" alt="Add card form before typing" />
+    <div class="caption">
+      Initial Add Card form before entering a title or pasting an image.
+    </div>
+
+    <!-- 2. Add Card (After Input) -->
+    <img src="portfolio/tierlist/tl-add-after.png" alt="Add card form after typing and pasting image" />
+    <div class="caption">
+      Add Card form after typing a name and pasting an image directly using Ctrl+V.
+    </div>
+
+    <!-- 3. Card Appears in Unsorted Zone -->
+    <img src="portfolio/tierlist/tl-unsorted.png" alt="New card appearing in the unsorted zone" />
+    <div class="caption">
+      After pressing “Add Card,” the card appears in the Unsorted zone, ready to be placed into a tier.
+    </div>
+
+    <!-- 4. Ghost Preview (Insert Before) -->
+    <img src="portfolio/tierlist/tl-ghost-before.png" alt="Ghost preview showing insertion before a card" />
+    <div class="caption">
+      Dragging a card over another triggers a ghost preview that appears <strong>before</strong> the target card when the cursor is left of its midpoint.
+    </div>
+
+    <!-- 5. Ghost Preview (Insert After) -->
+    <img src="portfolio/tierlist/tl-ghost-after.png" alt="Ghost preview showing insertion after a card" />
+    <div class="caption">
+      Dragging with the cursor right of the target card’s midpoint causes the ghost to appear <strong>after</strong> the card.
+    </div>
+
+    <!-- 6. Ghost Preview at End of Row -->
+    <img src="portfolio/tierlist/tl-ghost-end.png" alt="Ghost preview at the end of a tier row" />
+    <div class="caption">
+      Hovering over empty space places the ghost preview at the <strong>end</strong> of the tier row, demonstrating flexible insertion behavior.
+    </div>
+
+    <!-- 7. Final Tier List After Drop -->
+    <img src="portfolio/tierlist/tl-final.png" alt="Final tier list after placing the card" />
+    <div class="caption">
+      After releasing the card, it appears in the correct position within the tier. The user can then save the tier list to persist it in the backend.
+    </div>
+
+    <h2>📌 Outcome</h2>
+    <p>
+      The final product is a polished, flexible tier list editor with full CRUD functionality,
+      a midpoint-based drag-and-drop algorithm, inline editing, and image uploads via direct paste.
+      It serves as a showcase of frontend interactivity, backend API design, and end-to-end state
+      synchronization.
+    </p>
+
+    <h2>⚙️ Development Highlights</h2>
+    <ul>
+      <li>
+        <strong>Drag-and-Drop Engine:</strong> Built a custom ghost preview system using midpoint
+        math and DOM bounding boxes to determine insertion before or after a card.
+      </li>
+      <li>
+        <strong>Image Paste Handling:</strong> Users can paste images directly into a drop zone, converting
+        clipboard files into object URLs. Perfect for quick tier list creation.
+      </li>
+      <li>
+        <strong>Inline Editing:</strong> Tier names, card names, and titles are contentEditable,
+        enabling smooth and intuitive updates without modal interruptions.
+      </li>
+      <li>
+        <strong>Two-Way Sync:</strong> Saving pushes all state (tiers, items, orderings, deletions)
+        to the backend, while loading regenerates the editor state exactly.
+      </li>
+      <li>
+        <strong>Full CRUD:</strong> Users can add, rename, or delete tiers and cards, reorder
+        tiers, clear tiers, and manage multiple saved tierlists tied to their account.
+      </li>
+      <li>
+        <strong>Authentication:</strong> JWT-based login system ensures users can access their
+        own collections securely.
+      </li>
+    </ul>
+
+    <p><a href="index.html">⬅ Back to Portfolio Home</a></p>
   </body>
 </html>
